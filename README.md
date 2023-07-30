@@ -1,4 +1,4 @@
-# co75c4e6f9b3eff0da9232d6d
+# co78c4675a6da142e82343e55
 
 Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complain about that. Solution: rename `.js` files to `.jsx` :)
 
@@ -21,4 +21,3 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
-"# VinLife" 
