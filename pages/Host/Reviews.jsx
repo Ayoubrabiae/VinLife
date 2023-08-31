@@ -27,11 +27,6 @@ export default function Reviews() {
                     Last <span>30 days</span>
                 </p>
             </div>
-            <img
-                className="graph"
-                src="/assets/images/reviews-graph.png"
-                alt="Review graph"
-            />
             <h3>Reviews (2)</h3>
             {reviewsData.map((review) => (
                 <div key={review.id}>

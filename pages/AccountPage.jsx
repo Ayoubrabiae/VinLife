@@ -6,7 +6,7 @@ export default function AccountPage() {
   return (
     <div className="account-page container">
       <img
-        src="../assets/images/avatar-icon.png"
+        src="https://p.kindpng.com/picc/s/78-785827_user-profile-avatar-login-account-male-user-icon.png"
         className="login-icon"
       />
       <h2>{auth.currentUser.email}</h2>

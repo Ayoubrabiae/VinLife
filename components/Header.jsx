@@ -68,7 +68,7 @@ export default function Header() {
                     </NavLink>
                     <Link to="login" className="login-link">
                         <img
-                            src="../assets/images/avatar-icon.png"
+                            src="https://p.kindpng.com/picc/s/78-785827_user-profile-avatar-login-account-male-user-icon.png"
                             className="login-icon"
                         />
                     </Link>
