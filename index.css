@@ -594,11 +594,17 @@ i[class*='van-type-'] {
 }
 
 .not-found-container {
-    padding-inline: 26px;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+.not-found-container h1 {
+    margin-bottom: 40px;
+    line-height: 1.7;
 }
 
 .not-found-container .link-button {
-    width: 100%;
+    width: fit-content;
     background-color: #161616;
     color: white;
 }
