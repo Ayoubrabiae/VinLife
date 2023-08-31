@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom"
 import { auth } from "../api"
 import { signOut } from "firebase/auth"
+import avatarImg from '../assets/images/user.png'
 
 export default function AccountPage() {
   return (
     <div className="account-page container">
       <img
-        src="https://p.kindpng.com/picc/s/78-785827_user-profile-avatar-login-account-male-user-icon.png"
+        src={avatarImg}
         className="login-icon"
       />
       <h2>{auth.currentUser.email}</h2>

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link, NavLink, redirect } from "react-router-dom"
-import { signOut } from "firebase/auth"
-import { auth } from "../api"
+import avatarImg from '../assets/images/user.png'
 
 export default function Header() {
     const [width, setWidth] = useState(window.innerWidth)
@@ -68,7 +67,7 @@ export default function Header() {
                     </NavLink>
                     <Link to="login" className="login-link">
                         <img
-                            src="https://p.kindpng.com/picc/s/78-785827_user-profile-avatar-login-account-male-user-icon.png"
+                            src={avatarImg}
                             className="login-icon"
                         />
                     </Link>
